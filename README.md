@@ -1,4 +1,3 @@
-## Deployed at https://malinovskii.github.io/recipe/
 
 ## Available Scripts
 
