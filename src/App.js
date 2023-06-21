@@ -75,7 +75,7 @@ const App = () => {
 
       {loading && <Spinner />}
 
-      <div className="row pt-4">
+      <div className="card-columns pt-4">
         {recipes ? (
           recipes.map((recipe) => (
             <Recipe

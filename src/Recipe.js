@@ -2,8 +2,7 @@ import React from "react";
 
 const Recipe = ({ title, calories, image, ingredients, url }) => {
   return (
-    <div className="col-md-4">
-      <div className="card mb-4 shadow-sm">
+      <div className="card shadow-sm">
         <img src={image} className="card-img" alt="" />
         <div className="card-body">
           <h1 className="card-title">{title}</h1>
@@ -24,7 +23,6 @@ const Recipe = ({ title, calories, image, ingredients, url }) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
